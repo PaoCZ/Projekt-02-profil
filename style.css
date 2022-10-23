@@ -14,8 +14,97 @@ tlačítko facebook         #3b5998
 tlačítko twitter          #1da1f2
 */
 
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 body {
   background-color: #bdc3c7;
+}
+
+.profil {
+  margin: 20px;
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #31363b;
+  
+}
+
+.hlavicka {
+  position: relative;
+}
+
+.foto {
+  object-fit: contain;
+  width: 100%;
+  display: block;
+}
+
+.logo {
+  background-color: #b92e81;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -25px;
+  right: 10%;
+}
+
+.obsah {
+  padding: 0 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #bdc3c7;
+}
+
+.jmeno {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+ul {
+  width: 100%;
+  padding: 0;
+}
+
+.odkazy {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.odkazy li {
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  border: 1px solid #3f464d;
+  font-size: large;
+  text-align: center;
+  flex: 1 1 50%;
+}
+
+.odkazy li a {
+  color: #bdc3c7;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+
+.odkazy li a:hover {
+  color: white;
+}
+
+.portfolio {
+  flex: 1 1 100% !important;
+}
+
+.portfolio:hover  {
+  background-color: #e74c3c;
+  border-top: 1px solid #e74c3c;
+}
+
+.facebook:hover  {
+  background-color: #3b5998;
+  border-top: 1px solid #3b5998;
+}
+
+.twitter:hover  {
+  background-color: #1da1f2;
+  border-top: 1px solid #1da1f2;
 }
 
