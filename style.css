@@ -63,7 +63,7 @@ ul {
   padding: 0;
 }
 
-.odkazy {
+.odkazy { /* správné využití flexboxu*/
   display: flex;
   flex-wrap: wrap;
 }
